@@ -23,5 +23,11 @@ body {
     width: 180px;
     height: 120px;
     cursor: pointer;
-    
+    background: url(../images/burger-menu.svg) no-repeat center;
+    background-size: contain;
+     /* transition: .1s all linear; */
+} 
+.burger_active {
+    background: url(../images/burger-cross.svg) no-repeat center;
+    background-size: contain;
 }
