@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ff2a;
+    font-family: cosmic sans ms;
+    color: #000;
+
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+.burger {
+    width: 180px;
+    height: 120px;
+    cursor: pointer;
+    
+}
